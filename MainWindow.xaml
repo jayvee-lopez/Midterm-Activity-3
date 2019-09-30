@@ -1,0 +1,22 @@
+﻿<Window x:Class="jayveelopez.activity3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jayveelopez.activity3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFCF5B7A">
+        <TextBox x:Name="txtFrom" HorizontalAlignment="Left" Height="62" Margin="73,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263"/>
+        <TextBox x:Name="txtTo" HorizontalAlignment="Left" Height="62" Margin="455,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"/>
+        <Label Content="From" HorizontalAlignment="Left" Height="41" Margin="73,21,0,0" VerticalAlignment="Top" Width="263"/>
+        <Label Content="To" HorizontalAlignment="Left" Height="41" Margin="471,16,0,0" VerticalAlignment="Top" Width="262"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Height="42" Margin="120,228,0,0" VerticalAlignment="Top" Width="559" Background="#FFF7E9E9"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="337,166,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Label x:Name="lblOddSum" Content="" HorizontalAlignment="Left" Height="41" Margin="24,294,0,0" VerticalAlignment="Top" Width="264" Background="#FFF5E1E1"/>
+        <Label x:Name="lblEvenSum" Content="" HorizontalAlignment="Left" Height="41" Margin="24,340,0,0" VerticalAlignment="Top" Width="264" Background="#FFF5EDED"/>
+        <Label x:Name="lblOddCounter" Content="" HorizontalAlignment="Left" Height="41" Margin="456,294,0,0" VerticalAlignment="Top" Width="263" Background="#FFEEECEC"/>
+        <Label x:Name="lblEvenCounter" Content="" HorizontalAlignment="Left" Height="41" Margin="456,340,0,0" VerticalAlignment="Top" Width="263" Background="#FFF7EDED"/>
+
+    </Grid>
+</Window>
